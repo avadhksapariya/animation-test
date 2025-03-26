@@ -19,7 +19,7 @@ class _ScreenAnimationState extends State<ScreenAnimation> with SingleTickerProv
     ctrAnimation = AnimationController(vsync: this, duration: const Duration(seconds: 2));
 
     widthAnimation = Tween<double>(
-      begin: 0,
+      begin: 50,
       end: 200,
     ).animate(CurvedAnimation(parent: ctrAnimation, curve: Curves.easeInOut));
 
